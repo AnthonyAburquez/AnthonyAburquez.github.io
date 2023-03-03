@@ -1,0 +1,69 @@
+@media screen and (max-width: 600px){
+
+   
+
+    .btn-con{
+        margin-left:5rem;
+    }
+
+    .theme-btn{
+        width: 45px;
+        height: 45px;
+    }
+
+    .header-content{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+
+    }
+    .h-shape{
+        display: none;   
+    }
+
+    .controls{
+        top:auto;
+        bottom:0;
+        flex-direction: row;
+        justify-content: center;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        .control{
+            margin: 1rem .3rem;
+            width: 45px;
+            height: 45px;
+
+        }
+
+    }
+    div .name{
+        padding-left: 1.5rem;
+        padding-bottom: 1.5rem;
+        margin-left: 1rem;
+        justify-content: center;
+        
+        span{
+            font-size:39px !important;
+        }
+        h1{
+            font-size: 10px;
+            justify-content: center;
+        }
+    }
+    
+    section.sec2.about{
+        padding:0rem;
+        margin: 0rem;
+        h2{
+            padding-top: 2rem;
+        }
+        h4{
+            margin-left: 2rem;
+        }
+        p.myInfo{
+            margin-left: 0rem;
+            font-size: small;
+        }
+    }
+
+}
