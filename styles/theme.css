@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+:root{--ink:#ecf5f4;--muted:#9aafbb;--line:#274154;--paper:#0b1a29;--navy:#081522;--blue:#4dd9c2;--mint:#4dd9c2}
+body{background:#081522;color:var(--ink)}
+body::before{content:"";position:absolute;z-index:-1;top:76px;left:0;right:0;height:650px;background:linear-gradient(rgba(65,114,137,.09) 1px,transparent 1px),linear-gradient(90deg,rgba(65,114,137,.09) 1px,transparent 1px);background-size:46px 46px;mask-image:linear-gradient(to bottom,#000,transparent)}
+.site-header{background:rgba(8,21,34,.93);border-bottom-color:#244052}
+.brand,.site-nav a,.nav-resume{color:#dcebe9}
+.brand-mark span,.nav-resume span,.text-link span,.row-arrow{color:#4dd9c2}
+.nav-resume{border-color:#335165}
+.nav-resume:hover,.nav-resume:focus-visible{border-color:#4dd9c2;background:#102e3b}
+.site-nav a:hover,.site-nav a:focus-visible{color:#4dd9c2}
+.eyebrow,.section-kicker,.timeline-date,.credential-year,.work-number,.contact-link span:last-child{color:#4dd9c2}
+.eyebrow,.section-kicker,.timeline-date,.work-number,.work-type,.work-award,.roadmap-stamp,.proof-label,.project-stack>span,.signal-block{font-family:"IBM Plex Mono",monospace}
+.status-dot{background:#4dd9c2;box-shadow:0 0 0 5px rgba(77,217,194,.12)}
+.hero{min-height:700px}
+.hero h1 em{color:#4dd9c2}
+.hero-lead{color:#aec1ca}
+.hero-meta{color:#8fa4b2}
+.meta-divider{background:#3a5362}
+.button-primary{background:#4dd9c2;color:#071a25;box-shadow:0 15px 40px rgba(77,217,194,.12)}
+.button-primary:hover{background:#8fe8d9}
+.text-link{color:#e6f2f1;border-bottom-color:#547478}
+.portrait-frame{background:linear-gradient(155deg,#173c4b,#16334d 58%,#2c5d6c);border:1px solid #315865;box-shadow:0 0 0 12px rgba(47,101,115,.08)}
+.floating-note{background:#102b39;border:1px solid #3b666d;color:#9fbabd;box-shadow:0 18px 45px rgba(0,0,0,.3)}
+.floating-note strong{color:#f0faf8}
+.note-icon{color:#4dd9c2}
+.market-lines{position:absolute;left:-10px;bottom:17px;width:48%;height:96px;padding:10px 0;opacity:.7;pointer-events:none}
+.market-lines svg{height:100%;width:100%;overflow:visible}
+.market-lines polyline{fill:none;stroke:#57e3c9;stroke-width:2.5;filter:drop-shadow(0 0 8px #4dd9c2)}
+.about-section{background:#0b2030;border-top:1px solid #1c3b49;border-bottom:1px solid #1c3b49}
+.about-section .section-kicker{color:#4dd9c2}
+.about-copy p{color:#b6c8ce}
+.signal-block{display:flex;flex-wrap:wrap;gap:9px;margin-top:35px;color:#6da6a5;font-size:10px;letter-spacing:.06em}
+.signal-block span{border-left:2px solid #4dd9c2;padding:7px 11px;background:#123041}
+.skill-list span{border-color:#335567;color:#cbe3e2;background:#102b3a}
+.experience-section{background:#081522}
+.timeline,.timeline-row{border-color:#294254}
+.timeline-row{transition:background .2s,padding .2s}
+.timeline-row:hover{background:#0d2232;padding-left:15px;padding-right:15px}
+.timeline-row .company{color:#e4f1ef}
+.timeline-row p{color:#9bb1be}
+.company span{color:#8099a8}
+.work-section{background:#0b1e2c;border-top:1px solid #1c3b49;border-bottom:1px solid #1c3b49}
+.roadmap-intro{font-size:15px;color:#a3b8c3;line-height:1.7;max-width:610px;margin:20px 0 0}
+.roadmap-stamp{font-size:11px;letter-spacing:.12em;color:#56ccb8;border:1px solid #35625f;padding:10px 14px;white-space:nowrap}
+.work-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.work-card,.work-card.featured{grid-column:auto;min-height:415px;background:linear-gradient(155deg,#102b3c,#0e2434);border:1px solid #2c4b5b;border-radius:3px;padding:28px;position:relative;overflow:hidden;justify-content:flex-start}
+.work-card>div:last-child{margin-top:42px}
+.work-card::before{content:"";position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,#4dd9c2,transparent)}
+.work-card:hover{border-color:#4dd9c2;transform:translateY(-3px);transition:transform .2s,border-color .2s}
+.work-top{align-items:start}
+.work-number{font-size:11px;letter-spacing:.07em;color:#4dd9c2}
+.work-type{font-size:10px;color:#91adb9}
+.work-card .work-award{color:#52cfbd;font-size:10px;letter-spacing:.07em}
+.work-card h3{font-size:24px;color:#edf8f6;overflow-wrap:anywhere}
+.work-card p{color:#adbfca;font-size:13px}
+.project-stack{border-top:1px solid #355464;padding-top:17px;margin-top:24px}
+.project-stack>span{display:block;font-size:10px;color:#4dd9c2;text-transform:uppercase;letter-spacing:.1em;margin-bottom:8px}
+.project-stack p{margin:0;font-family:"IBM Plex Mono",monospace;font-size:11px;line-height:1.65;color:#c5dedc}
+.proof-strip{border:1px solid #315461;background:#102937;display:flex;justify-content:space-between;align-items:center;gap:30px;padding:25px 30px;margin-top:18px}
+.proof-label{color:#4dd9c2;font-size:10px;letter-spacing:.1em}
+.proof-strip h3{font-size:19px;margin:9px 0 7px}
+.proof-strip p{color:#a9bdc5;font-size:13px;line-height:1.6;margin:0;max-width:730px}
+.proof-strip a{font-size:12px;font-weight:800;color:#4dd9c2;white-space:nowrap}
+.credentials-section{background:#081522}
+.credentials-intro,.credential p{color:#9bb1be}
+.credential{border-color:#294254}
+.contact-section{background:#0e3038;border-top:1px solid #31615d}
+.contact-section p:not(.section-kicker){color:#acc7c7}
+.contact-actions,.contact-link{border-color:#35605e}
+.contact-link:hover{color:#4dd9c2}
+.site-footer{background:#06111d;border-top:1px solid #1e3848;color:#9cb0bb}
+.site-footer a{color:#e3f3f0}
+a:focus-visible,button:focus-visible{outline-color:#4dd9c2}
+@media(max-width:1000px){.work-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.work-card,.work-card.featured{min-height:410px}.work-card:last-child{grid-column:span 2;min-height:340px}}
+@media(max-width:720px){body::before{top:66px;height:600px}.menu-toggle span{background:#d7f0ed}.site-nav{background:#0b2030;border-bottom-color:#305163}.site-nav a{color:#e2f0ed}.hero{min-height:0}.market-lines{left:0;bottom:4px;width:45%}.work-grid{grid-template-columns:1fr}.work-card,.work-card.featured,.work-card:last-child{grid-column:auto;min-height:0}.work-card>div:last-child{margin-top:35px}.section-heading{gap:15px}.roadmap-stamp{align-self:start}.proof-strip{flex-direction:column;align-items:start;padding:22px}.timeline-row:hover{padding-left:0;padding-right:0}}
+@media(prefers-reduced-motion:reduce){.work-card:hover,.timeline-row:hover{transform:none;transition:none}}
